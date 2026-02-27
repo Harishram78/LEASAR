@@ -52,3 +52,12 @@ tqdm>=4.65.0
 pyyaml>=6.0
 python-dotenv>=1.0.0
 joblib>=1.3.0
+
+# GPU Acceleration (data_preprocessing.py)
+numba>=0.58.0
+pybullet-data>=0.0.1
+# cudf & dask-cudf: install via RAPIDS (GPU only, requires CUDA 11+)
+# pip install cudf-cu11 dask-cudf-cu11 --extra-index-url https://pypi.nvidia.com
+
+# Simulation
+pybullet>=3.2.5
